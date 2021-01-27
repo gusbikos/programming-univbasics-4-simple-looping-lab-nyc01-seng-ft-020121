@@ -22,8 +22,13 @@ def output_array(array)
     puts array
     count += 1
   end
-
 end
 
 def return_string_array(array)
+  count = 0
+  new_array = []
+  while count < array.length do
+    new_array << array.to_s
+  end
+  new_array
 end
